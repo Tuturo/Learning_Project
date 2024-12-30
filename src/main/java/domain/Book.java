@@ -15,22 +15,26 @@ public class Book {
   private String Abstract; // Реферат
   private String Status; // Наличие на складе
 
-  public Book(String Title, Long YearPublish, Long CountPage, Long PublisherId, Publisher publisher) {
-    this.Title = Title;
-    this.YearPublish = YearPublish;
-    this.CountPage = CountPage;
-    this.PublisherId = PublisherId;
-    this.publisher = publisher;
-  }
+//  public Book(String Title, Long YearPublish, Long CountPage, Long PublisherId, Publisher publisher) {
+//    this.Title = Title;
+//    this.YearPublish = YearPublish;
+//    this.CountPage = CountPage;
+//    this.PublisherId = PublisherId;
+//    this.publisher = publisher;
+//  }
 
-  public Book(Long id, Publisher publisher, String Title, Long YearPublish, Long CountPage) {
+//  public Book(Long id, Publisher publisher, String Title, Long YearPublish, Long CountPage) {
+//    this.id = id;
+//    this.Title = Title;
+//    this.YearPublish = YearPublish;
+//    this.CountPage = CountPage;
+//    this.publisher = publisher;
+//  }
+
+  public Book(long id, String Title) {
     this.id = id;
     this.Title = Title;
-    this.YearPublish = YearPublish;
-    this.CountPage = CountPage;
-    this.publisher = publisher;
   }
-
   public Book(Long id, Long AuthorId, Author author, Long PublisherId, Publisher publisher, String Title, Long Code, Long YearPublish, Long CountPage, String Hardcover, String Abstract, String Status) {
     this.id = id;
     this.AuthorId = AuthorId;

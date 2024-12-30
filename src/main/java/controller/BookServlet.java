@@ -7,12 +7,12 @@ import java.io.PrintWriter;
 /**
  * Servlet implementation class RoleServlet_
  */
-@WebServlet("/HelloRoleServlet")
-public class RoleServlet extends HttpServlet {
+@WebServlet("/book")
+public class BookServlet extends HttpServlet {
   private static final long serialVersionUID = 1L;
   /**
    * @see HttpServlet#HttpServlet() */
-  public RoleServlet() { super();
+  public BookServlet() { super();
 // TODO Auto-generated constructor stub
   }
 /**
@@ -21,7 +21,7 @@ public class RoleServlet extends HttpServlet {
  */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
       response.setContentType("text/html"); PrintWriter writer = response.getWriter(); try {
-        writer.println("<h2>Привет RoleServlet</h2>"); } finally {
+        writer.println("<h2>Привет BookServlet</h2>"); } finally {
         writer.close();
       }
     }

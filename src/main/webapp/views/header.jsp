@@ -10,8 +10,8 @@
 <!-- Header -->
 <nav class="navbar navbar-light bg-primary"> <div class="container-fluid">
   <a class="navbar-brand" href="#">
-    <img src="img/network.png" alt="" width="80" height="80" > </a>
-  <h2>Управление персоналом</h2>
+    <img class="mainImg" src="img/books.png" alt="" width="80" height="80" > </a>
+  <h2>Система учёта книг</h2>
 </div>
 </nav>
 <!-- /Header -->
