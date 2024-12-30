@@ -14,6 +14,10 @@ public class Author {
   public Author(String FirstName) {
     this.FirstName = FirstName;
   }
+  public Author(Long id, String FirstName) {
+    this.id = id;
+    this.FirstName = FirstName;
+  }
   public Author(Long id, String FirstName, String LastName) {
     this.id = id;
     this.FirstName = FirstName;

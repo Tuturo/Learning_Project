@@ -15,6 +15,10 @@ public class Publisher {
   public Publisher(String NamePublisher) {
     this.NamePublisher = NamePublisher;
   }
+  public Publisher(Long id, String NamePublisher) {
+    this.id = id;
+    this.NamePublisher = NamePublisher;
+  }
   public Publisher(Long id, String NamePublisher, String Address, String Site) {
     this.id = id;
     this.NamePublisher = NamePublisher;
